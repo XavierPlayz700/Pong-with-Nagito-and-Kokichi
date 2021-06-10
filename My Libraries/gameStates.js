@@ -152,8 +152,10 @@ function restart(){
 
     pScore = 0;
     cScore = 0;
-
+    
+    songs[0].stop();
     songs[0].loop();
+    
     reset();
 
 }
