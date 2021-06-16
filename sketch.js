@@ -126,9 +126,9 @@ function draw() {
         if(keyWentDown("space")){
             gameState = "play";
             puck.visible = true;
-            puck.setVelocity(random(-5, -3), random(-5, 5));
+            puck.setVelocity(random(-5, -3), random(3, 5));
 
-            nagito.velocityX = random(-5, 5);
+            nagito.velocityX = random(3, 5);
             nagito.changeAnimation("Nagito Move");
         }
     }
